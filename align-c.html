@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>align-items</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-color:   rgb(226, 31, 31);
+        }
+
+        .main-container {
+            width: 100%;
+            height: 500px;
+            background-color: gray;
+
+        }
+
+        .heading {
+            font-size: 50px;
+            text-align: center;
+            background-color: blanchedalmond;
+        }
+
+        .bottom-container {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .box {
+            width: 20%;
+            height: 250PX;
+            background-color: lightgreen;
+            gap: 20px;
+            flex-shrink: 1; /*defult:shrink when needed*/;
+            
+        }
+
+        .box-title {
+            font-size: 20px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .box-value {
+            font-size: 40px;
+            font-weight: 700;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .box-text {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .green-text {
+            color: green;
+        }
+
+        .red-text {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="top-container">
+            <div class="heading">dash board</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> 
+         <br>
+        <br>
+        <div class="bottom-container">
+
+            <div class="box">
+                <span class="box-icon">👨</span>
+                <div class="box-title">total revenue</div>
+                <div class="box-value green-text">12000</div>
+                <div class="box-text green-text">12% from the last month</div>
+            </div>
+
+
+            <div class="box">
+                <span class="box-icon">👨</span>
+                <div class="box-title">total user</div>
+                <div class="box-value red-text">150</div>
+                <div class="box-text green-text">8% from the last month</div>
+            </div>
+
+
+            <div class="box">
+                <span class="box-icon">👨</span>
+                <div class="box-title">orders</div>
+                <div class="box-value green-text">200</div>
+                <div class="box-text green-text">3% from the last month</div>
+            </div>
+
+            <div class="box">
+                <span class="box-icon ">👨</span>
+                <div class="box-title ">satisfraction</div>
+                <div class="box-value green-text">5000</div>
+                <div class="box-text green-text">2% from the last month</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

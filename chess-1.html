@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chess Board</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(74, 141, 124);
+            font-style: var(#f0f0f0);
+        }
+
+        .chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, 60px);
+            grid-template-rows: repeat(8, 60px);
+            border: 6px solid black
+        }
+
+        .chessboard div {
+            width: 60px;
+            height: 60px;
+        }
+
+        .white {
+            background-color: white;
+            font-style: var(white);
+        }
+
+        .black {
+            background-color: lightgreen;
+            font-style: var(lightgreen);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chessboard">
+        <div class="black"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/black-chess-piece-rook-XlQAxG8-600.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="white"
+            style= "background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/knight-chess-piece-Xor8l29-600.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://thumbs.dreamstime.com/b/simple-single-shiny-black-bishop-chess-piece-figure-symbol-alone-isolated-white-background-object-cut-out-big-game-set-element-174128818.jpg); background-repeat: no-repeat;background-size: cover;">
+        </div>
+        <div class="white"
+            style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWzDidkSsk3Lg_Zgr_816qJPCpNBGTQ8TYv5Ut_1OnDLijzRqOhb1Wo1Tggkxa6ULk1zo&usqp=CAU);background-repeat: no-repeat;background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://cdn1.vectorstock.com/i/1000x1000/95/40/black-simple-king-chess-vector-37099540.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://thumbs.dreamstime.com/b/simple-single-shiny-black-bishop-chess-piece-figure-symbol-alone-isolated-white-background-object-cut-out-big-game-set-element-174128818.jpg); background-repeat: no-repeat;background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/knight-chess-piece-Xor8l29-600.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="white"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/black-chess-piece-rook-XlQAxG8-600.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <!--coloum 2-->
+        <div class="white"
+            style="background-image: url(https://c8.alamy.com/comp/2B22X9W/single-shiny-black-chess-pawn-isolated-matte-low-contrast-one-lonely-chess-piece-on-grey-background-macro-closeup-abstract-game-of-chess-univers-2B22X9W.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://c8.alamy.com/comp/2B22X9W/single-shiny-black-chess-pawn-isolated-matte-low-contrast-one-lonely-chess-piece-on-grey-background-macro-closeup-abstract-game-of-chess-univers-2B22X9W.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="white"
+            style="background-image: url(https://c8.alamy.com/comp/2B22X9W/single-shiny-black-chess-pawn-isolated-matte-low-contrast-one-lonely-chess-piece-on-grey-background-macro-closeup-abstract-game-of-chess-univers-2B22X9W.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://c8.alamy.com/comp/2B22X9W/single-shiny-black-chess-pawn-isolated-matte-low-contrast-one-lonely-chess-piece-on-grey-background-macro-closeup-abstract-game-of-chess-univers-2B22X9W.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="white"
+            style="background-image: url(https://c8.alamy.com/comp/2B22X9W/single-shiny-black-chess-pawn-isolated-matte-low-contrast-one-lonely-chess-piece-on-grey-background-macro-closeup-abstract-game-of-chess-univers-2B22X9W.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://c8.alamy.com/comp/2B22X9W/single-shiny-black-chess-pawn-isolated-matte-low-contrast-one-lonely-chess-piece-on-grey-background-macro-closeup-abstract-game-of-chess-univers-2B22X9W.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="white"
+            style="background-image: url(https://c8.alamy.com/comp/2B22X9W/single-shiny-black-chess-pawn-isolated-matte-low-contrast-one-lonely-chess-piece-on-grey-background-macro-closeup-abstract-game-of-chess-univers-2B22X9W.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://c8.alamy.com/comp/2B22X9W/single-shiny-black-chess-pawn-isolated-matte-low-contrast-one-lonely-chess-piece-on-grey-background-macro-closeup-abstract-game-of-chess-univers-2B22X9W.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <!--coloum3-->
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <!--coloum 5-->
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <!--coloum 6-->
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <!--coloum 7-->
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <!--coloum 8-->
+        <div class="black"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/pawn-white-9KyeYGF-600.jpg) ; background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="white"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/pawn-white-9KyeYGF-600.jpg) ; background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/pawn-white-9KyeYGF-600.jpg) ; background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="white"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/pawn-white-9KyeYGF-600.jpg) ; background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/pawn-white-9KyeYGF-600.jpg) ; background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="white"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/pawn-white-9KyeYGF-600.jpg) ; background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/pawn-white-9KyeYGF-600.jpg) ; background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="white"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/pawn-white-9KyeYGF-600.jpg) ; background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <!--coloum 9-->
+        <div class="white"
+            style=" background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbF25hyGu2KsCoY0qzu0Msgl4MlIXofoQVcg&s);background-repeat: no-repeat;background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZlo-rLwrcOIP47gV6MxoZTbAcDe7bCdHFhQ&s ); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="white"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/chess-piece-bishop-white-chessmen-WyXz4L4-600.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYn4KMyWWMdjuGDL1JIfG-J6ZKIVj8YDSxtA&s); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="white"
+            style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTyrDpISqJiFN6mFsphYZHhh2ZK2rzEC9kyjY6Cj8XOLwCZztcsC1iw--NUIuMsdBNolw&usqp=CAU    ); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="black"
+            style="background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/chess-piece-bishop-white-chessmen-WyXz4L4-600.jpg); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="white"
+            style="background-image: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZlo-rLwrcOIP47gV6MxoZTbAcDe7bCdHFhQ&s   ); background-repeat: no-repeat; background-size: cover;">
+        </div>
+        <div class="black"
+            style=" background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbF25hyGu2KsCoY0qzu0Msgl4MlIXofoQVcg&s);background-repeat: no-repeat;background-size: cover;">
+        </div>
+    </div>
+
+</body>
+
+</html>
